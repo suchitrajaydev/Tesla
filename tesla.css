@@ -1,0 +1,62 @@
+header{
+    height : 65px;
+    width : 100%;
+    font-size: large;
+    text-align: center;
+
+}
+
+video{
+    height: 50%;
+    width: 90%;
+}
+
+input{
+    border: solid 2px;
+}
+
+.videoSummer{
+    text-align: center;
+}
+
+.personalDetails{
+    margin: 5%;
+    text-align: center;
+}
+
+.personalDetails span{
+    font-size: medium;
+}
+
+#email{
+    width:48%;
+}
+
+input[type="text"]{
+    margin: 5px;
+    width: 18%;
+}
+
+input[type="submit"]{
+    border: solid 1px dodgerblue;
+    color: white;
+}
+
+@media (max-width: 670px){
+    #email{
+        width: 80%;
+    }
+    .personalDetails{
+        margin:2%;
+    }
+    .personalDetails span{
+        font-size: 10px;
+    }
+    video{
+        width: 80%;
+    }
+    input[type="text"]{
+        margin: 2px;
+        width:15%;
+    }
+}
